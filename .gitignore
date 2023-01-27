@@ -1,0 +1,33 @@
+*~
+.#*
+## the next line needs to start with a backslash to avoid looking like
+## a comment
+\#*#
+*.pyc
+*.pyo
+.*.swp
+
+__pycache_
+/parts
+/.installed.cfg
+/develop-eggs
+/*.eg
+*.egg-info
+/eggs
+/.eggs
+/build
+/dist
+/venv
+.coverage
+.pypirc
+/.idea
+.mypy_cache/
+.pytest_cache
+poetry.lock
+
+*.key
+*.crt
+*.pem
+
+settings.py
+advanced_settings.py
